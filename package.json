@@ -1,0 +1,9 @@
+{
+  "name": "graphql-todo-backend",
+  "version": "0.1.0",
+  "description": "A small GraphQL node server to act as a backend for a React TodoMVC app",
+  "main": "app.js",
+  "repository": "git@github.com:jall/graphql-todo-backend.git",
+  "author": "Jon Hall",
+  "license": "MIT"
+}
