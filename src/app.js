@@ -1,8 +1,8 @@
-var { graphql, buildSchema } = require('graphql');
-var schema = require('./schema.js');
+import { graphql, buildSchema } from 'graphql';
+import schema from './schema';
 
 // The root provides a resolver function for each API endpoint
-var root = {
+let root = {
   hello: () => {
     return 'Hello world!';
   },
