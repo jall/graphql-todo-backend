@@ -1,28 +1,15 @@
 // @flow
 
-import { GraphQLSchema, GraphQLObjectType, GraphQLList, GraphQLInt } from 'graphql';
-import TodoType from './Schema/TodoType';
-import data from './data.js'
-import objectToArray from './Utilities/ObjectToArray';
+import { GraphQLSchema, GraphQLObjectType, GraphQLList, GraphQLID } from 'graphql';
+
+import TodosQuery from './Query/TodosQuery';
+import TodoQuery from './Query/TodoQuery';
 
 let queryType = new GraphQLObjectType({
     name: 'Query',
     fields: {
-        todos: {
-            type: new GraphQLList(TodoType),
-            resolve: () => {
-                return objectToArray(data);
-            }
-        },
-        todo: {
-            type: TodoType,
-            args: {
-              id: { type: GraphQLInt }
-            },
-            resolve: (_, { id }) => {
-                return data[id];
-            }
-        }
+        todos: TodosQuery,
+        todo: TodoQuery
     }
 });
 

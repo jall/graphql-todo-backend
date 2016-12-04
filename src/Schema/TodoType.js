@@ -3,16 +3,16 @@
 import {
     GraphQLObjectType,
     GraphQLBoolean,
-    GraphQLInt,
+    GraphQLID,
     GraphQLString
 } from 'graphql';
 
 let TodoType = new GraphQLObjectType({
   name: 'todo',
-  fields: function () {
+  fields: () => {
     return {
-      id: {
-        type: GraphQLInt
+      _id: {
+        type: GraphQLID
       },
       text: {
         type: GraphQLString
