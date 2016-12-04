@@ -1,3 +1,5 @@
+// @flow
+
 import { GraphQLSchema, GraphQLObjectType, GraphQLList, GraphQLInt } from 'graphql';
 import TodoType from './Schema/TodoType';
 import data from './data.js'
