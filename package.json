@@ -12,8 +12,11 @@
     "graphql": "^0.8.2"
   },
   "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
+    "flow-bin": "^0.36.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2"
+    "gulp-babel": "^6.1.2",
+    "gulp-flowtype": "^1.0.0"
   }
 }
