@@ -8,5 +8,10 @@
   "license": "MIT",
   "dependencies": {
     "graphql": "^0.8.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "babel-preset-latest": "^6.16.0"
   }
 }
