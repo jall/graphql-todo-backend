@@ -1,14 +1,15 @@
 import { graphql, buildSchema } from 'graphql';
 import schema from './schema';
 
-// The root provides a resolver function for each API endpoint
-let root = {
-  hello: () => {
-    return 'Hello world!';
-  },
-};
+let id = 1;
+let query = `{
+    todo(id: ${id}) {
+        id,
+        text,
+        complete
+    }
+}`;
 
-// Run the GraphQL query '{ hello }' and print out the response
-graphql(schema, '{ hello }', root).then((response) => {
+graphql(schema, query).then((response) => {
   console.log(response);
 });
