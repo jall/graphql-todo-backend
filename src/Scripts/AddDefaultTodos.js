@@ -19,7 +19,7 @@ let data = [
 
 console.log('Adding default todos into database...');
 
-database.insert(data, (err, newDocs) => {
+database.insert(data, (err) => {
     if (err) {
         console.log('Failed to add to database!');
         console.log(err);

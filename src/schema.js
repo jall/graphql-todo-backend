@@ -1,6 +1,6 @@
 // @flow
 
-import { GraphQLSchema, GraphQLObjectType, GraphQLList, GraphQLID } from 'graphql';
+import { GraphQLSchema, GraphQLObjectType } from 'graphql';
 
 import TodosQuery from './Query/TodosQuery';
 import TodoQuery from './Query/TodoQuery';
