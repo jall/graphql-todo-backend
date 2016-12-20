@@ -13,8 +13,13 @@
     "nedb": "^1.8.0"
   },
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
     "babel-plugin-transform-flow-strip-types": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "latest",
     "flow-bin": "^0.36.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
