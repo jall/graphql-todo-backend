@@ -1,20 +1,13 @@
-import database from '../database';
 import process from 'process';
 
+import database from '../database';
+import Todo from '../Model/Todo';
+
 let data = [
-    {
-        text: 'Buy milk',
-        complete: false
-    }, {
-        text: 'Pay water bill',
-        complete: false
-    }, {
-        text: 'Defeat Metroman',
-        complete: false
-    }, {
-        text: 'Take over the world',
-        complete: false
-    }
+    new Todo('Buy milk', false),
+    new Todo('Pay water bill', false),
+    new Todo('Defeat Metroman', false),
+    new Todo('Take over the world', false)
 ];
 
 console.log('Adding default todos into database...');
