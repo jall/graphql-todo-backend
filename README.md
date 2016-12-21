@@ -25,7 +25,7 @@ yarn start
 # npm start
 
 # Or longhand:
-node dist/app.js
+# node dist/app.js
 ```
 
 ## Usage
