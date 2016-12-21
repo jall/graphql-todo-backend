@@ -25,5 +25,8 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-flowtype": "^1.0.0"
+  },
+  "scripts": {
+      "start": "node dist/app.js"
   }
 }
