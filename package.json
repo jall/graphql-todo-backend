@@ -18,6 +18,7 @@
     "babel-preset-latest": "^6.16.0",
     "eslint": "^3.12.2",
     "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-flowtype": "^2.29.1",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "latest",
     "flow-bin": "^0.36.0",

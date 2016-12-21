@@ -13,6 +13,7 @@
         }
     },
     "plugins": [
+        "flowtype",
         "promise"
     ],
     "rules": {
